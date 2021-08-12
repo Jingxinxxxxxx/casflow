@@ -65,7 +65,7 @@ def write_cascade(graphs, labels, id2row, filename, gg_emb, weight=True):
         global_temp = list()
 
         # build graph
-        g = nx.Graph()
+        g = nx.DiGraph()
         nodes_index = list()
         list_edge = list()
         cascade_embedding = list()
